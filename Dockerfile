@@ -18,11 +18,13 @@ RUN \
 	apache2-utils \
 	bc \
 	bind-tools \
+    grep \
 	curl \
 	openssh-client \
 	smokeping \
 	ssmtp \
 	sudo \
+    fping \
 	tcptraceroute \
 	ttf-dejavu && \
  echo "**** give setuid access to traceroute & tcptraceroute ****" && \
